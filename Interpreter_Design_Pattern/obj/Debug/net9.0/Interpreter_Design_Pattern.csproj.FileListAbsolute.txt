@@ -1,0 +1,4 @@
+D:\ProjectProduct\Design_Pattern\Interpreter_Design_Pattern\obj\Debug\net9.0\Interpreter_Design_Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectProduct\Design_Pattern\Interpreter_Design_Pattern\obj\Debug\net9.0\Interpreter_Design_Pattern.AssemblyInfoInputs.cache
+D:\ProjectProduct\Design_Pattern\Interpreter_Design_Pattern\obj\Debug\net9.0\Interpreter_Design_Pattern.AssemblyInfo.cs
+D:\ProjectProduct\Design_Pattern\Interpreter_Design_Pattern\obj\Debug\net9.0\Interpreter_Design_Pattern.csproj.CoreCompileInputs.cache

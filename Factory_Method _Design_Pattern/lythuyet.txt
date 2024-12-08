@@ -1,0 +1,4 @@
+﻿Factory Method là một Creational Design Pattern cung cấp một giao diện để tạo đối tượng, cho phép các lớp con quyết định kiểu đối tượng sẽ được khởi tạo. Mẫu thiết kế này giúp giảm sự phụ thuộc giữa các lớp cụ thể bằng cách sử dụng một phương thức chung để tạo đối tượng.
+
+Ý tưởng chính:
+Thay vì khởi tạo một đối tượng trực tiếp bằng từ khóa new, chúng ta sử dụng một phương thức "factory" để tạo ra nó. Điều này giúp mã dễ mở rộng và bảo trì.

@@ -1,0 +1,22 @@
+﻿Chain of Responsibility Design Pattern là gì?
+Chain of Responsibility Design Pattern là một Behavioral Design Pattern cho phép các đối tượng xử lý yêu cầu (request) theo chuỗi, trong đó mỗi đối tượng trong chuỗi có thể xử lý yêu cầu hoặc chuyển tiếp yêu cầu cho đối tượng tiếp theo trong chuỗi. Mục đích của pattern này là giúp giảm sự phụ thuộc giữa các đối tượng trong hệ thống và cho phép các yêu cầu được xử lý theo cách linh hoạt và dễ mở rộng.
+
+Cấu trúc của Chain of Responsibility Pattern
+Handler (Xử lý): Định nghĩa một đối tượng có thể xử lý yêu cầu. Nó có thể chuyển yêu cầu cho đối tượng kế tiếp nếu nó không thể xử lý yêu cầu.
+ConcreteHandler (Xử lý cụ thể): Là lớp kế thừa từ Handler và triển khai phương thức xử lý yêu cầu.
+Client: Là đối tượng tạo và thiết lập chuỗi các xử lý và gửi yêu cầu đến đối tượng đầu tiên trong chuỗi.
+
+
+Ví dụ thực tế trong .NET Core
+Giả sử bạn đang xây dựng một hệ thống quản lý hỗ trợ khách hàng, nơi các yêu cầu từ khách hàng có thể được xử lý bởi các cấp độ hỗ trợ khác nhau, chẳng hạn như Hỗ trợ cấp 1, Hỗ trợ cấp 2, và Hỗ trợ cấp 3. Mỗi cấp độ có thể xử lý các yêu cầu khác nhau hoặc chuyển tiếp yêu cầu lên cấp độ cao hơn nếu nó không thể giải quyết.
+
+
+Giải thích mã:
+SupportHandler (Xử lý):
+Là lớp trừu tượng định nghĩa phương thức HandleRequest() mà các lớp con phải triển khai. Nó cũng chứa một tham chiếu đến đối tượng xử lý kế tiếp (nếu có) trong chuỗi.
+
+LevelOneSupport, LevelTwoSupport, LevelThreeSupport (Xử lý cụ thể):
+Mỗi lớp con này sẽ kiểm tra xem yêu cầu có thể được xử lý hay không. Nếu không, nó sẽ chuyển tiếp yêu cầu đến handler tiếp theo trong chuỗi (nếu có).
+
+Client:
+Trong mã khách hàng, chúng ta tạo ra các đối tượng LevelOneSupport, LevelTwoSupport, và LevelThreeSupport. Sau đó, chúng ta thiết lập chuỗi xử lý bằng cách gọi phương thức SetNextHandler() và gửi các yêu cầu khác nhau để kiểm tra cách mà chuỗi xử lý các yêu cầu.

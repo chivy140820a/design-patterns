@@ -1,0 +1,31 @@
+﻿Visitor Design Pattern là gì?
+Visitor Design Pattern là một Behavioral Design Pattern cho phép bạn thêm mới hành vi vào các lớp hiện có mà không cần thay đổi mã nguồn của các lớp đó. Nó giúp tách biệt thuật toán khỏi các đối tượng mà thuật toán đó hoạt động. Với Visitor Pattern, bạn có thể định nghĩa một lớp "visitor" có thể truy cập các phần tử của một cấu trúc đối tượng mà không cần thay đổi các lớp đối tượng đó.
+
+Cấu trúc của Visitor Pattern:
+Element (Phần tử):
+Đây là lớp cơ sở hoặc giao diện cho các đối tượng mà visitor sẽ "thăm". Các lớp này định nghĩa phương thức Accept(IVistor visitor) để cho phép một đối tượng visitor thực thi hành vi trên chúng.
+
+ConcreteElement (Phần tử cụ thể):
+Là lớp kế thừa từ Element và triển khai phương thức Accept(IVistor visitor) để gọi phương thức cụ thể của visitor.
+
+Visitor (Visitor interface):
+Là giao diện hoặc lớp cơ sở cho tất cả các visitor. Visitor có thể có các phương thức Visit cho các phần tử cụ thể mà nó cần xử lý.
+
+ConcreteVisitor (Visitor cụ thể):
+Là lớp cụ thể triển khai các hành vi (các phương thức Visit) cho các phần tử cụ thể.
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang xây dựng một hệ thống báo cáo thuế cho các loại sản phẩm khác nhau, mỗi loại sản phẩm có các cách tính thuế khác nhau. Bạn có thể sử dụng Visitor Pattern để định nghĩa các hành vi tính thuế này mà không cần thay đổi các lớp sản phẩm hiện tại.
+
+Giải thích mã:
+IProduct:
+Đây là giao diện đại diện cho tất cả các sản phẩm. Phương thức Accept() cho phép một Visitor thực thi hành vi trên đối tượng sản phẩm.
+
+FoodProduct và ElectronicProduct:
+Các lớp này đại diện cho các loại sản phẩm cụ thể và triển khai phương thức Accept() để gọi phương thức tương ứng của TaxCalculator.
+
+ITaxVisitor và TaxCalculator:
+ITaxVisitor là giao diện cho các visitor, và TaxCalculator là visitor cụ thể có nhiệm vụ tính thuế cho các sản phẩm khác nhau. Mỗi phương thức Visit trong TaxCalculator tương ứng với một loại sản phẩm và tính toán thuế theo tỷ lệ riêng.
+
+Program:
+Trong ứng dụng, bạn tạo các sản phẩm cụ thể (FoodProduct, ElectronicProduct) và visitor (TaxCalculator). Sau đó, bạn gọi phương thức Accept() trên các sản phẩm để cho phép visitor xử lý và tính thuế.

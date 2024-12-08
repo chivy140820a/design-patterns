@@ -1,0 +1,26 @@
+﻿State Design Pattern là gì?
+State Design Pattern là một Behavioral Design Pattern cho phép một đối tượng thay đổi hành vi của nó khi trạng thái bên trong của nó thay đổi. Mẫu thiết kế này giúp các đối tượng thay đổi hành vi mà không cần thay đổi mã nguồn của chúng. Thực chất, nó cho phép các đối tượng chuyển đổi giữa các trạng thái khác nhau mà không cần phải quản lý hoặc điều khiển trạng thái thủ công.
+
+Mẫu thiết kế State giúp bạn giảm bớt sự phức tạp của mã nguồn khi một đối tượng có nhiều trạng thái khác nhau và hành vi của nó thay đổi tùy thuộc vào trạng thái hiện tại.
+
+Khi nào sử dụng State Pattern?
+1.Khi một đối tượng có nhiều trạng thái mà mỗi trạng thái có hành vi khác nhau.
+2.Khi bạn muốn thay đổi hành vi của một đối tượng mà không thay đổi mã nguồn của đối tượng đó.
+3.Khi các trạng thái của đối tượng có thể thay đổi động và bạn muốn sử dụng các lớp riêng biệt để quản lý các trạng thái đó.
+
+Cấu trúc của State Pattern
+Context: Lớp chứa đối tượng cần thay đổi hành vi dựa trên trạng thái hiện tại.
+State: Interface hoặc lớp trừu tượng định nghĩa hành vi cho các trạng thái.
+ConcreteState: Các lớp con của State triển khai các hành vi cụ thể cho từng trạng thái.
+Transition: Khi đối tượng chuyển trạng thái, nó thay đổi trạng thái hiện tại và thay đổi hành vi của nó.
+
+
+Ví dụ thực tế trong .NET Core
+Bối cảnh:
+Giả sử bạn đang phát triển một hệ thống quản lý đơn hàng trong ứng dụng thương mại điện tử. Một đơn hàng có thể ở nhiều trạng thái khác nhau như New (Mới), Processed (Đang xử lý), Shipped (Đã giao hàng), và Delivered (Đã nhận). Mỗi trạng thái này có hành vi riêng và bạn cần thay đổi hành vi của đơn hàng khi nó chuyển từ trạng thái này sang trạng thái khác.
+
+
+Giải thích mã:
+Order (Context): Đây là lớp quản lý trạng thái của đơn hàng. Đơn hàng có thể chuyển từ trạng thái này sang trạng thái khác thông qua phương thức TransitionTo.
+IOrderState (State): Interface này định nghĩa hành vi của các trạng thái đơn hàng. Mỗi trạng thái cụ thể sẽ triển khai phương thức Handle để xử lý hành vi đặc thù của nó.
+ConcreteState: Mỗi lớp trạng thái cụ thể (như NewOrderState, ProcessedOrderState, ShippedOrderState, DeliveredOrderState) triển khai hành vi cho các trạng thái khác nhau. Khi đơn hàng chuyển trạng thái, hành vi của nó sẽ thay đổi.

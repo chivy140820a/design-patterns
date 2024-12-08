@@ -1,0 +1,29 @@
+﻿Proxy Design Pattern là gì?
+Proxy Design Pattern là một Structural Design Pattern được sử dụng để cung cấp một đại diện hoặc một "proxy" cho một đối tượng khác. Proxy sẽ kiểm soát quyền truy cập đến đối tượng thực tế, giúp bạn có thể thực hiện các thao tác bổ sung trước hoặc sau khi truy cập đối tượng thực tế. Mẫu thiết kế này thường được sử dụng để thực hiện các chức năng như kiểm soát quyền truy cập, lazy initialization, hoặc thêm các chức năng như caching, logging, bảo mật, v.v.
+
+Trong Proxy Pattern, có thể có nhiều loại proxy:
+
+Virtual Proxy: Được sử dụng khi việc khởi tạo đối tượng thực tế rất tốn kém, vì vậy đối tượng này chỉ được tạo ra khi thực sự cần thiết.
+Remote Proxy: Được sử dụng khi đối tượng thực tế nằm ở một máy tính khác (chẳng hạn như khi làm việc với các dịch vụ phân tán).
+Protective Proxy: Được sử dụng để kiểm soát quyền truy cập vào đối tượng thực tế (thường dùng trong bảo mật).
+Cache Proxy: Được sử dụng để lưu trữ kết quả của một phương thức, tránh phải thực hiện lại các phép tính tốn kém.
+
+
+Cấu trúc của Proxy Pattern
+1.Subject (Chủ thể): Là interface hoặc lớp trừu tượng định nghĩa các phương thức mà đối tượng thực tế và proxy sẽ thực thi.
+2.RealSubject (Chủ thể thực tế): Là lớp thực tế mà bạn muốn proxy lại.
+3.Proxy (Proxy): Là lớp đại diện cho RealSubject, thực hiện kiểm tra quyền truy cập, logging, lazy initialization, hoặc các chức năng bổ sung khác trước khi chuyển yêu cầu đến đối tượng thực tế.
+
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang phát triển một ứng dụng yêu cầu tải xuống dữ liệu từ một API bên ngoài. Việc tải dữ liệu này có thể tốn thời gian và tài nguyên, vì vậy bạn muốn sử dụng một Proxy để thực hiện Caching (lưu trữ tạm thời) kết quả để giảm thiểu số lần gọi API.
+
+
+Giải thích mã:
+IDataService (Giao diện chủ thể): Đây là interface định nghĩa phương thức GetData() mà cả RealDataService và CachingDataServiceProxy sẽ thực thi.
+
+RealDataService (Chủ thể thực tế): Là lớp thực tế đại diện cho một dịch vụ có thể tốn kém khi thực thi (ví dụ: gọi API bên ngoài). Lớp này thực thi phương thức GetData() thực tế.
+
+CachingDataServiceProxy (Proxy): Lớp proxy này kiểm tra xem dữ liệu đã được lưu trong bộ nhớ cache chưa. Nếu chưa, nó gọi phương thức GetData() từ RealDataService để lấy dữ liệu và lưu vào cache. Nếu đã có dữ liệu trong cache, nó trả về dữ liệu đó mà không phải gọi lại RealDataService.
+
+Client Code (Mã khách hàng): Trong mã khách hàng, bạn chỉ làm việc với IDataService mà không cần quan tâm đến việc có đang sử dụng proxy hay không. Khi gọi GetData(), proxy sẽ quyết định có nên lấy dữ liệu từ cache hay từ nguồn bên ngoài.

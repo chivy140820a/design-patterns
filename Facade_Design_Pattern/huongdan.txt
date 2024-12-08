@@ -1,0 +1,14 @@
+﻿
+Facade Design Pattern là gì?
+Facade Design Pattern là một Structural Design Pattern nhằm cung cấp một giao diện đơn giản (facade) cho một hệ thống phức tạp. Mẫu này giúp ẩn đi sự phức tạp của các lớp con, API, hoặc thư viện bên trong hệ thống và chỉ cung cấp một điểm truy cập dễ sử dụng cho các tác vụ thường gặp.
+
+Facade không thay đổi các lớp bên trong mà chỉ cung cấp một lớp giao diện đơn giản hóa cho các đối tượng phức tạp. Nó giúp giảm bớt sự phụ thuộc giữa các lớp và làm cho mã dễ dàng sử dụng và bảo trì hơn.
+
+Khi nào sử dụng Facade Pattern?
+1.Khi một hệ thống có quá nhiều lớp hoặc các lớp phụ thuộc lẫn nhau và bạn muốn cung cấp một giao diện đơn giản hơn cho người dùng.
+2.Khi bạn muốn ẩn đi sự phức tạp của hệ thống bên trong.
+3.Khi muốn tách rời giao diện người dùng và các hệ thống bên trong, giúp thay đổi dễ dàng mà không làm ảnh hưởng đến các phần khác.
+
+Cấu trúc của Facade Pattern
+Facade: Lớp cung cấp giao diện đơn giản để truy cập các hệ thống hoặc dịch vụ phức tạp.
+Subsystem Classes: Các lớp phụ trợ bên trong mà facade sẽ tương tác với chúng, ẩn đi sự phức tạp từ người dùng.

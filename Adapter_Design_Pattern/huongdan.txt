@@ -1,0 +1,18 @@
+﻿Adapter Design Pattern là gì?
+Adapter Design Pattern là một Structural Design Pattern được sử dụng để chuyển đổi giao diện của một lớp hiện có thành một giao diện khác mà client mong đợi. Nó hoạt động như một "bộ chuyển đổi" để hai giao diện không tương thích có thể làm việc cùng nhau.
+
+Ý tưởng chính:
+Adapter đóng vai trò là một lớp trung gian, giúp kết nối giữa các thành phần vốn không tương thích về giao diện.
+
+Cấu trúc Adapter Pattern
+1.Target Interface (Giao diện đích):
+Giao diện mà client muốn sử dụng.
+
+2.Adaptee (Lớp thích nghi):
+Lớp hiện tại với giao diện không tương thích cần được tích hợp.
+
+3.Adapter (Lớp chuyển đổi):
+Lớp trung gian giúp Adaptee tuân theo Target Interface.
+
+4.Client:
+Lớp hoặc mã sử dụng Target Interface.

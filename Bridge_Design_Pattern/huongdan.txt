@@ -1,0 +1,14 @@
+﻿Bridge Design Pattern là gì?
+Bridge Design Pattern là một Structural Design Pattern được sử dụng để tách rời sự trừu tượng (abstraction) khỏi sự triển khai (implementation), giúp chúng có thể phát triển độc lập mà không ảnh hưởng lẫn nhau. Mẫu thiết kế này rất hữu ích khi bạn muốn thay đổi hoặc mở rộng cả phần trừu tượng và phần triển khai mà không làm gián đoạn hệ thống hiện có.
+
+
+Khi nào sử dụng Bridge Pattern?
+1.Khi bạn muốn tách rời logic nghiệp vụ và logic triển khai để giảm sự phụ thuộc giữa chúng.
+2.Khi bạn có nhiều biến thể của trừu tượng (abstraction) và triển khai (implementation).
+3.Khi bạn cần thay đổi hoặc mở rộng các biến thể này một cách độc lập.
+
+Cấu trúc Bridge Pattern
+1.Abstraction (Trừu tượng): Giao diện hoặc lớp cơ sở chứa logic nghiệp vụ chính.
+2.Refined Abstraction: Một biến thể cụ thể của Abstraction.
+3.Implementor: Giao diện hoặc lớp cơ sở xác định các phương thức triển khai cụ thể.
+4.Concrete Implementor: Các lớp cụ thể triển khai giao diện Implementor.

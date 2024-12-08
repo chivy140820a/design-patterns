@@ -1,0 +1,30 @@
+﻿Observer Design Pattern là gì?
+Observer Design Pattern là một Behavioral Design Pattern dùng để mô tả một mô hình trong đó một đối tượng (gọi là subject) duy trì danh sách các đối tượng phụ thuộc (gọi là observers) và thông báo cho chúng mỗi khi có sự thay đổi trạng thái. Đây là một mô hình phổ biến trong các hệ thống cần thực hiện đồng bộ hóa trạng thái giữa nhiều đối tượng.
+
+Cụ thể, mô hình này có ba thành phần chính:
+
+Subject (Chủ thể): Là đối tượng mà các observers đang quan tâm. Khi trạng thái của subject thay đổi, nó sẽ thông báo cho tất cả các observers.
+Observer (Quan sát viên): Là các đối tượng phụ thuộc vào subject. Khi subject thay đổi, tất cả các observers sẽ nhận được thông báo và cập nhật trạng thái của mình.
+ConcreteSubject (Chủ thể cụ thể): Là một lớp kế thừa từ subject, giữ và quản lý các observers.
+ConcreteObserver (Quan sát viên cụ thể): Là một lớp thực thi từ observer, nhận thông báo khi trạng thái của subject thay đổi và thực hiện các hành động cần thiết.
+
+
+Cấu trúc của Observer Pattern
+Subject Interface: Định nghĩa các phương thức đăng ký, hủy đăng ký và thông báo cho các observers.
+Observer Interface: Định nghĩa phương thức cập nhật mà các observers sẽ thực thi khi nhận được thông báo từ subject.
+ConcreteSubject: Là lớp triển khai Subject, quản lý danh sách các observers và thông báo thay đổi.
+ConcreteObserver: Là lớp triển khai Observer, thực hiện hành động khi nhận được thông báo từ ConcreteSubject.
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang xây dựng một ứng dụng trong đó có một Weather Station (Trạm thời tiết) cung cấp thông tin về nhiệt độ. Các observers (ví dụ: ứng dụng di động, website, v.v.) sẽ nhận thông báo khi nhiệt độ thay đổi. Đây là ví dụ sử dụng Observer Pattern để xây dựng ứng dụng cập nhật thông tin thời tiết.
+
+Giải thích mã:
+IObserver: Đây là giao diện cho các đối tượng muốn nhận thông báo từ Subject. Các đối tượng này phải thực thi phương thức Update() để nhận được thông tin cập nhật (như nhiệt độ trong ví dụ này).
+
+ISubject: Đây là giao diện mà đối tượng chủ thể (trạm thời tiết) phải thực thi. Giao diện này có các phương thức RegisterObserver(), RemoveObserver() và NotifyObservers(), cho phép đăng ký, hủy đăng ký và thông báo cho các observers.
+
+WeatherStation (ConcreteSubject): Đây là lớp triển khai ISubject. Nó duy trì danh sách các observers và thông báo cho tất cả các observers khi có sự thay đổi (chẳng hạn như nhiệt độ thay đổi).
+
+MobileApp và Website (ConcreteObserver): Đây là các lớp triển khai IObserver. Mỗi khi WeatherStation thay đổi, các đối tượng này sẽ nhận thông báo qua phương thức Update() và thực hiện hành động tương ứng, chẳng hạn như hiển thị thông tin nhiệt độ mới.
+
+Client Code: Trong mã khách hàng, bạn khởi tạo các đối tượng và đăng ký chúng làm observers cho WeatherStation. Khi nhiệt độ thay đổi, các observers nhận thông báo và cập nhật giao diện của mình.

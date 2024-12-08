@@ -1,0 +1,13 @@
+﻿Decorator Design Pattern là gì?
+Decorator Design Pattern là một Structural Design Pattern cho phép bạn thêm hoặc mở rộng chức năng của một đối tượng hiện có một cách linh hoạt mà không cần thay đổi mã nguồn của đối tượng đó. Pattern này thường được sử dụng khi bạn cần thêm nhiều hành vi khác nhau cho một lớp mà không muốn tạo quá nhiều lớp con.
+
+Khi nào sử dụng Decorator Pattern?
+1.Khi bạn muốn mở rộng hành vi của một đối tượng mà không thay đổi mã nguồn của nó.
+2.Khi bạn cần kết hợp linh hoạt nhiều hành vi khác nhau mà không làm tăng số lượng lớp con.
+3.Khi bạn muốn tuân thủ Open-Closed Principle: Mở rộng chức năng mà không sửa đổi lớp hiện có.
+
+Cấu trúc Decorator Pattern
+1.Component Interface: Định nghĩa hành vi chung cho các đối tượng được trang trí.
+2.Concrete Component: Lớp đối tượng chính mà bạn muốn mở rộng hành vi.
+3.Decorator: Lớp cơ sở cho tất cả các lớp trang trí, chứa tham chiếu đến đối tượng chính.
+4.Concrete Decorator: Các lớp trang trí cụ thể, thêm hành vi mới cho đối tượng.

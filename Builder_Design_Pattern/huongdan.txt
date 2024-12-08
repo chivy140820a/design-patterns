@@ -1,0 +1,13 @@
+﻿Builder Design Pattern là gì?
+Builder Design Pattern là một Creational Design Pattern được sử dụng để xây dựng các đối tượng phức tạp bằng cách chia quá trình xây dựng thành nhiều bước. Builder cho phép bạn tạo ra các đối tượng có cấu trúc phức tạp mà không cần thay đổi mã nguồn của chúng.
+
+Khi nào sử dụng Builder Pattern?
+1.Khi bạn cần tạo ra các đối tượng với nhiều thuộc tính tùy chọn hoặc các biến thể khác nhau.
+2.Khi đối tượng cần được khởi tạo theo từng bước cụ thể, và bạn muốn kiểm soát quá trình này.
+3.Khi bạn muốn cải thiện khả năng đọc mã nguồn thay vì sử dụng các constructor với quá nhiều tham số.
+
+Cấu trúc Builder Pattern
+Builder Interface: Xác định các bước cần thiết để xây dựng đối tượng.
+Concrete Builder: Cung cấp cách triển khai cụ thể để xây dựng từng phần của đối tượng.
+Director: Chỉ đạo thứ tự các bước xây dựng đối tượng.
+Product: Đối tượng cuối cùng được tạo ra.

@@ -1,0 +1,690 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectProduct\\Design_Pattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADA15D20-FC67-448E-92E5-D24171B9C5A0}|Mediator_Design_Pattern\\Mediator_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\mediator_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ADA15D20-FC67-448E-92E5-D24171B9C5A0}|Mediator_Design_Pattern\\Mediator_Design_Pattern.csproj|solutionrelative:mediator_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADA15D20-FC67-448E-92E5-D24171B9C5A0}|Mediator_Design_Pattern\\Mediator_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\mediator_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADA15D20-FC67-448E-92E5-D24171B9C5A0}|Mediator_Design_Pattern\\Mediator_Design_Pattern.csproj|solutionrelative:mediator_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197FB59A-6447-4A70-A206-44693D2472FB}|Visitor_Design_Pattern\\Visitor_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\visitor_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{197FB59A-6447-4A70-A206-44693D2472FB}|Visitor_Design_Pattern\\Visitor_Design_Pattern.csproj|solutionrelative:visitor_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197FB59A-6447-4A70-A206-44693D2472FB}|Visitor_Design_Pattern\\Visitor_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\visitor_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197FB59A-6447-4A70-A206-44693D2472FB}|Visitor_Design_Pattern\\Visitor_Design_Pattern.csproj|solutionrelative:visitor_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA056306-AF36-4E39-9BDD-1127B71ADE3A}|Template_Method_Design_Pattern\\Template_Method_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\template_method_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AA056306-AF36-4E39-9BDD-1127B71ADE3A}|Template_Method_Design_Pattern\\Template_Method_Design_Pattern.csproj|solutionrelative:template_method_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA056306-AF36-4E39-9BDD-1127B71ADE3A}|Template_Method_Design_Pattern\\Template_Method_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\template_method_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA056306-AF36-4E39-9BDD-1127B71ADE3A}|Template_Method_Design_Pattern\\Template_Method_Design_Pattern.csproj|solutionrelative:template_method_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDE586F-DAF9-4A50-9033-67A3264D25BC}|Command_Design_Pattern\\Command_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\command_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7FDE586F-DAF9-4A50-9033-67A3264D25BC}|Command_Design_Pattern\\Command_Design_Pattern.csproj|solutionrelative:command_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FDE586F-DAF9-4A50-9033-67A3264D25BC}|Command_Design_Pattern\\Command_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\command_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FDE586F-DAF9-4A50-9033-67A3264D25BC}|Command_Design_Pattern\\Command_Design_Pattern.csproj|solutionrelative:command_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7C447A-433D-46E0-ACF5-47A913366DF4}|Chain_of_Responsibility_Design_Pattern\\Chain_of_Responsibility_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\chain_of_responsibility_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E7C447A-433D-46E0-ACF5-47A913366DF4}|Chain_of_Responsibility_Design_Pattern\\Chain_of_Responsibility_Design_Pattern.csproj|solutionrelative:chain_of_responsibility_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7C447A-433D-46E0-ACF5-47A913366DF4}|Chain_of_Responsibility_Design_Pattern\\Chain_of_Responsibility_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\chain_of_responsibility_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E7C447A-433D-46E0-ACF5-47A913366DF4}|Chain_of_Responsibility_Design_Pattern\\Chain_of_Responsibility_Design_Pattern.csproj|solutionrelative:chain_of_responsibility_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C4499-3B7C-4782-871D-D8E8610DB0A4}|Interpreter_Design_Pattern\\Interpreter_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\interpreter_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{874C4499-3B7C-4782-871D-D8E8610DB0A4}|Interpreter_Design_Pattern\\Interpreter_Design_Pattern.csproj|solutionrelative:interpreter_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874C4499-3B7C-4782-871D-D8E8610DB0A4}|Interpreter_Design_Pattern\\Interpreter_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\interpreter_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874C4499-3B7C-4782-871D-D8E8610DB0A4}|Interpreter_Design_Pattern\\Interpreter_Design_Pattern.csproj|solutionrelative:interpreter_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C369899-3AEB-477A-835E-16019F1E9C0E}|Observer_Design_Pattern\\Observer_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\observer_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6C369899-3AEB-477A-835E-16019F1E9C0E}|Observer_Design_Pattern\\Observer_Design_Pattern.csproj|solutionrelative:observer_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C369899-3AEB-477A-835E-16019F1E9C0E}|Observer_Design_Pattern\\Observer_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\observer_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C369899-3AEB-477A-835E-16019F1E9C0E}|Observer_Design_Pattern\\Observer_Design_Pattern.csproj|solutionrelative:observer_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EAA790-C10D-437F-A665-57DF3B740F5D}|Proxy_Design_Pattern\\Proxy_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\proxy_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{83EAA790-C10D-437F-A665-57DF3B740F5D}|Proxy_Design_Pattern\\Proxy_Design_Pattern.csproj|solutionrelative:proxy_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83EAA790-C10D-437F-A665-57DF3B740F5D}|Proxy_Design_Pattern\\Proxy_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\proxy_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83EAA790-C10D-437F-A665-57DF3B740F5D}|Proxy_Design_Pattern\\Proxy_Design_Pattern.csproj|solutionrelative:proxy_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977D157C-9672-4E8E-AA06-FEC6D285C9F4}|Strategy_Design_Pattern\\Strategy_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\strategy_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977D157C-9672-4E8E-AA06-FEC6D285C9F4}|Strategy_Design_Pattern\\Strategy_Design_Pattern.csproj|solutionrelative:strategy_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977D157C-9672-4E8E-AA06-FEC6D285C9F4}|Strategy_Design_Pattern\\Strategy_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\strategy_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{977D157C-9672-4E8E-AA06-FEC6D285C9F4}|Strategy_Design_Pattern\\Strategy_Design_Pattern.csproj|solutionrelative:strategy_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F544C9-7C70-4FE8-A8E9-DDA3CD1A1500}|State_Design_Pattern\\State_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\state_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F544C9-7C70-4FE8-A8E9-DDA3CD1A1500}|State_Design_Pattern\\State_Design_Pattern.csproj|solutionrelative:state_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F544C9-7C70-4FE8-A8E9-DDA3CD1A1500}|State_Design_Pattern\\State_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\state_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{25F544C9-7C70-4FE8-A8E9-DDA3CD1A1500}|State_Design_Pattern\\State_Design_Pattern.csproj|solutionrelative:state_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D0696D-26C1-4A16-B22C-125B1D715845}|Facade_Design_Pattern\\Facade_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\facade_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B1D0696D-26C1-4A16-B22C-125B1D715845}|Facade_Design_Pattern\\Facade_Design_Pattern.csproj|solutionrelative:facade_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDDBA88-1FBF-4889-A179-5E9EFDE6FD23}|Prototype_Design_Pattern\\Prototype_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\prototype_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CDDBA88-1FBF-4889-A179-5E9EFDE6FD23}|Prototype_Design_Pattern\\Prototype_Design_Pattern.csproj|solutionrelative:prototype_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B023F91F-1218-44F6-9AAB-772D066B0A88}|Decorator_Design_Pattern\\Decorator_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\decorator_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B023F91F-1218-44F6-9AAB-772D066B0A88}|Decorator_Design_Pattern\\Decorator_Design_Pattern.csproj|solutionrelative:decorator_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B023F91F-1218-44F6-9AAB-772D066B0A88}|Decorator_Design_Pattern\\Decorator_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\decorator_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B023F91F-1218-44F6-9AAB-772D066B0A88}|Decorator_Design_Pattern\\Decorator_Design_Pattern.csproj|solutionrelative:decorator_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1D0696D-26C1-4A16-B22C-125B1D715845}|Facade_Design_Pattern\\Facade_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\facade_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1D0696D-26C1-4A16-B22C-125B1D715845}|Facade_Design_Pattern\\Facade_Design_Pattern.csproj|solutionrelative:facade_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CDDBA88-1FBF-4889-A179-5E9EFDE6FD23}|Prototype_Design_Pattern\\Prototype_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\prototype_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5CDDBA88-1FBF-4889-A179-5E9EFDE6FD23}|Prototype_Design_Pattern\\Prototype_Design_Pattern.csproj|solutionrelative:prototype_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34768058-4427-42CE-8DB2-946DA00D847E}|Composite_Design_Pattern\\Composite_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\composite_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34768058-4427-42CE-8DB2-946DA00D847E}|Composite_Design_Pattern\\Composite_Design_Pattern.csproj|solutionrelative:composite_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34768058-4427-42CE-8DB2-946DA00D847E}|Composite_Design_Pattern\\Composite_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\composite_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{34768058-4427-42CE-8DB2-946DA00D847E}|Composite_Design_Pattern\\Composite_Design_Pattern.csproj|solutionrelative:composite_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DF079F-6299-481B-8A69-8F78ADEF82F8}|Builder_Design_Pattern\\Builder_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\builder_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DF079F-6299-481B-8A69-8F78ADEF82F8}|Builder_Design_Pattern\\Builder_Design_Pattern.csproj|solutionrelative:builder_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DF079F-6299-481B-8A69-8F78ADEF82F8}|Builder_Design_Pattern\\Builder_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\builder_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{32DF079F-6299-481B-8A69-8F78ADEF82F8}|Builder_Design_Pattern\\Builder_Design_Pattern.csproj|solutionrelative:builder_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C698CA17-FCDE-4BA7-B384-5E8D48C83091}|Bridge_Design_Pattern\\Bridge_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\bridge_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C698CA17-FCDE-4BA7-B384-5E8D48C83091}|Bridge_Design_Pattern\\Bridge_Design_Pattern.csproj|solutionrelative:bridge_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C698CA17-FCDE-4BA7-B384-5E8D48C83091}|Bridge_Design_Pattern\\Bridge_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\bridge_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C698CA17-FCDE-4BA7-B384-5E8D48C83091}|Bridge_Design_Pattern\\Bridge_Design_Pattern.csproj|solutionrelative:bridge_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51678BAA-4523-48FB-A67B-EEA084580F47}|Adapter_Design_Pattern\\Adapter_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\adapter_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{51678BAA-4523-48FB-A67B-EEA084580F47}|Adapter_Design_Pattern\\Adapter_Design_Pattern.csproj|solutionrelative:adapter_design_pattern\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51678BAA-4523-48FB-A67B-EEA084580F47}|Adapter_Design_Pattern\\Adapter_Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\adapter_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51678BAA-4523-48FB-A67B-EEA084580F47}|Adapter_Design_Pattern\\Adapter_Design_Pattern.csproj|solutionrelative:adapter_design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7904065-809D-4970-A630-1C59F2128B6F}|Design_Pattern\\Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\design_pattern\\design_pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7904065-809D-4970-A630-1C59F2128B6F}|Design_Pattern\\Design_Pattern.csproj|solutionrelative:design_pattern\\design_pattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB13332-11FF-4DCD-9D38-BE56DE5FF2E2}|Abstract_Factory_Design\\Abstract_Factory_Design.csproj|d:\\projectproduct\\design_pattern\\abstract_factory_design\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1FB13332-11FF-4DCD-9D38-BE56DE5FF2E2}|Abstract_Factory_Design\\Abstract_Factory_Design.csproj|solutionrelative:abstract_factory_design\\huongdan.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB13332-11FF-4DCD-9D38-BE56DE5FF2E2}|Abstract_Factory_Design\\Abstract_Factory_Design.csproj|d:\\projectproduct\\design_pattern\\abstract_factory_design\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB13332-11FF-4DCD-9D38-BE56DE5FF2E2}|Abstract_Factory_Design\\Abstract_Factory_Design.csproj|solutionrelative:abstract_factory_design\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28D12D5-7131-4DF2-9FCF-91060BC67332}|Factory_Method _Design_Pattern\\Factory_Method _Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\factory_method _design_pattern\\lythuyet.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B28D12D5-7131-4DF2-9FCF-91060BC67332}|Factory_Method _Design_Pattern\\Factory_Method _Design_Pattern.csproj|solutionrelative:factory_method _design_pattern\\lythuyet.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28D12D5-7131-4DF2-9FCF-91060BC67332}|Factory_Method _Design_Pattern\\Factory_Method _Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\factory_method _design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28D12D5-7131-4DF2-9FCF-91060BC67332}|Factory_Method _Design_Pattern\\Factory_Method _Design_Pattern.csproj|solutionrelative:factory_method _design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7904065-809D-4970-A630-1C59F2128B6F}|Design_Pattern\\Design_Pattern.csproj|d:\\projectproduct\\design_pattern\\design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7904065-809D-4970-A630-1C59F2128B6F}|Design_Pattern\\Design_Pattern.csproj|solutionrelative:design_pattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Mediator_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Mediator_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Mediator_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Mediator_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:32:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Mediator_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Mediator_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Mediator_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Mediator_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:32:17.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Visitor_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Visitor_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Visitor_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Visitor_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAADHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:31:33.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Visitor_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Visitor_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Visitor_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Visitor_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:31:21.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Template_Method_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Template_Method_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Template_Method_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Template_Method_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:30:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Template_Method_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Template_Method_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Template_Method_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Template_Method_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:30:21.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Command_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Command_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Command_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Command_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAACrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:29:14.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Command_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Command_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Command_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Command_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAkwH4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:29:05.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Chain_of_Responsibility_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Chain_of_Responsibility_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Chain_of_Responsibility_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Chain_of_Responsibility_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:26:32.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Chain_of_Responsibility_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Chain_of_Responsibility_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Chain_of_Responsibility_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Chain_of_Responsibility_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:26:21.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Interpreter_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Interpreter_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Interpreter_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Interpreter_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:25:09.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Interpreter_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Interpreter_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Interpreter_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Interpreter_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:24:58.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Observer_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Observer_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Observer_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Observer_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:22:00.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Observer_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Observer_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Observer_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Observer_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:21:51.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Proxy_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Proxy_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Proxy_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Proxy_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:10:42.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\State_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "State_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\State_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "State_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAADmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:05:22.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\State_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "State_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\State_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "State_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:05:06.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Facade_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Facade_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Facade_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Facade_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:03:55.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Prototype_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Prototype_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Prototype_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Prototype_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:01:34.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Proxy_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Proxy_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Proxy_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Proxy_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:10:25.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Strategy_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Strategy_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Strategy_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Strategy_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAACeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:08:08.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Strategy_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Strategy_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Strategy_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Strategy_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:07:52.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Facade_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Facade_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Facade_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Facade_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:03:42.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Prototype_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Prototype_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Prototype_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Prototype_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T14:01:46.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Decorator_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Decorator_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Decorator_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Decorator_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:49:44.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Decorator_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Decorator_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Decorator_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Decorator_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:49:33.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Composite_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Composite_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Composite_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Composite_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:52:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Composite_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Composite_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Composite_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Composite_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:53:10.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Builder_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Builder_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Builder_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Builder_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:41:36.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Builder_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Builder_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Builder_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Builder_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:38:18.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Bridge_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Bridge_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Bridge_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Bridge_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:30:53.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Bridge_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Bridge_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Bridge_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Bridge_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:30:45.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Design_Pattern.csproj",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Design_Pattern\\Design_Pattern.csproj",
+              "RelativeDocumentMoniker": "Design_Pattern\\Design_Pattern.csproj",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Design_Pattern\\Design_Pattern.csproj",
+              "RelativeToolTip": "Design_Pattern\\Design_Pattern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T13:29:04.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Adapter_Design_Pattern\\huongdan.txt",
+              "RelativeDocumentMoniker": "Adapter_Design_Pattern\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Adapter_Design_Pattern\\huongdan.txt",
+              "RelativeToolTip": "Adapter_Design_Pattern\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:28:54.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "huongdan.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Abstract_Factory_Design\\huongdan.txt",
+              "RelativeDocumentMoniker": "Abstract_Factory_Design\\huongdan.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Abstract_Factory_Design\\huongdan.txt",
+              "RelativeToolTip": "Abstract_Factory_Design\\huongdan.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:27:41.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Adapter_Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Adapter_Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Adapter_Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Adapter_Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:25:39.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Abstract_Factory_Design\\Program.cs",
+              "RelativeDocumentMoniker": "Abstract_Factory_Design\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Abstract_Factory_Design\\Program.cs",
+              "RelativeToolTip": "Abstract_Factory_Design\\Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAmwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:23:36.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "lythuyet.txt",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Factory_Method _Design_Pattern\\lythuyet.txt",
+              "RelativeDocumentMoniker": "Factory_Method _Design_Pattern\\lythuyet.txt",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Factory_Method _Design_Pattern\\lythuyet.txt",
+              "RelativeToolTip": "Factory_Method _Design_Pattern\\lythuyet.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T13:21:33.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Factory_Method _Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Factory_Method _Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Factory_Method _Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Factory_Method _Design_Pattern\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:19:39.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProjectProduct\\Design_Pattern\\Design_Pattern\\Program.cs",
+              "RelativeDocumentMoniker": "Design_Pattern\\Program.cs",
+              "ToolTip": "D:\\ProjectProduct\\Design_Pattern\\Design_Pattern\\Program.cs",
+              "RelativeToolTip": "Design_Pattern\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:19:00.962Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

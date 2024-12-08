@@ -1,0 +1,28 @@
+﻿Command Design Pattern là gì?
+Command Design Pattern là một Behavioral Design Pattern cho phép tách biệt các yêu cầu từ đối tượng thực thi chúng. Trong pattern này, yêu cầu được đóng gói vào một đối tượng (gọi là command) và có thể được thực thi sau, hoãn lại hoặc thực hiện lại khi cần thiết. Mục đích của pattern này là tạo ra một hệ thống có thể dễ dàng mở rộng và duy trì các hành động mà không cần phải biết chi tiết cách thức chúng thực hiện.
+
+Cấu trúc của Command Pattern
+Command: Định nghĩa một interface cho tất cả các lệnh, bao gồm phương thức Execute(), là nơi chứa logic thực thi lệnh.
+ConcreteCommand: Là lớp thực thi các hành động cụ thể, thực hiện lệnh.
+Invoker: Là đối tượng yêu cầu lệnh được thực thi. Nó không biết chi tiết về lệnh, chỉ đơn giản yêu cầu đối tượng command thực thi lệnh.
+Receiver: Là đối tượng thực thi các hành động khi lệnh được gọi.
+Client: Tạo và cấu hình các đối tượng command và invoker.
+
+Ví dụ thực tế trong .NET Core
+Giả sử bạn đang xây dựng một ứng dụng quản lý nhà hàng, nơi người dùng có thể yêu cầu các hành động như thêm món ăn vào đơn hàng, xóa món ăn khỏi đơn hàng, hoặc thực hiện thanh toán. Với Command Pattern, bạn có thể đóng gói mỗi hành động vào một lệnh riêng biệt và sau đó yêu cầu các hành động đó thực thi.
+
+Giải thích mã:
+ICommand (Lệnh):
+Là interface xác định phương thức Execute(), tất cả các lớp lệnh sẽ cài đặt phương thức này để thực hiện hành động cụ thể.
+
+ConcreteCommand (Lệnh cụ thể):
+Các lớp như AddDishCommand, RemoveDishCommand, và PayOrderCommand đóng gói các hành động cụ thể. Chúng nhận vào đối tượng Order và thực thi hành động tương ứng (thêm món, xóa món, thanh toán).
+
+Order (Receiver):
+Đây là lớp thực thi các hành động thực tế (thêm món, xóa món, thanh toán). Nó cũng có phương thức ShowOrder() để hiển thị tình trạng hiện tại của đơn hàng.
+
+OrderInvoker (Yêu cầu thực thi):
+Là lớp yêu cầu các lệnh thực thi, nhận các lệnh và gọi phương thức Execute() của chúng. Invoker không cần biết chi tiết về cách các lệnh thực hiện, chỉ cần gửi yêu cầu thực thi.
+
+Program (Client):
+Trong mã khách hàng, chúng ta tạo ra một Order, sau đó tạo và thêm các lệnh vào Invoker. Cuối cùng, chúng ta gọi ExecuteCommands() để thực thi tất cả các lệnh đã thêm vào.

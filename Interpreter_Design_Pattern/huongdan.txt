@@ -1,0 +1,29 @@
+﻿Interpreter Design Pattern là gì?
+Interpreter Design Pattern là một Behavioral Design Pattern được sử dụng để giải thích hoặc phân tích một ngôn ngữ cụ thể, thường là ngôn ngữ biểu thức, bằng cách sử dụng một hệ thống các đối tượng mô phỏng một abstract syntax tree. Mục đích của pattern này là cung cấp cách thức thực thi một ngôn ngữ đặc biệt hoặc ngôn ngữ biểu thức thông qua việc phân tích cú pháp của các lệnh hoặc biểu thức trong ngữ cảnh ứng dụng.
+
+Mô hình này thường được sử dụng khi bạn cần triển khai một ngôn ngữ riêng biệt hoặc một bộ cú pháp biểu thức để giải quyết một vấn đề phức tạp trong ứng dụng. Pattern này đặc biệt hữu ích trong các ứng dụng xử lý văn bản, trình biên dịch, hoặc các công cụ cần giải thích các ngôn ngữ nhỏ, chẳng hạn như một biểu thức toán học hoặc cú pháp lệnh của một ứng dụng.
+
+
+Cấu trúc của Interpreter Pattern
+AbstractExpression (Biểu thức trừu tượng): Định nghĩa một phương thức Interpret() để giải thích hoặc tính toán kết quả của một biểu thức.
+TerminalExpression (Biểu thức đầu cuối): Là một loại biểu thức cụ thể không thể chia nhỏ hơn. Nó thực hiện các phép toán trên dữ liệu đầu vào và trả về kết quả.
+NonTerminalExpression (Biểu thức không phải đầu cuối): Là loại biểu thức phức tạp hơn, có thể chứa nhiều TerminalExpressions hoặc NonTerminalExpressions. Nó giải thích các phần của ngôn ngữ bằng cách sử dụng các đối tượng khác.
+Context (Ngữ cảnh): Giữ thông tin về dữ liệu cần thiết để giải thích các biểu thức.
+Client: Là nơi tạo các đối tượng biểu thức và bắt đầu quá trình giải thích.
+
+Ví dụ thực tế trong .NET Core
+Giả sử bạn muốn xây dựng một ứng dụng tính toán đơn giản, trong đó người dùng có thể nhập một biểu thức toán học như 1 + 2 * 3, và bạn muốn sử dụng Interpreter Design Pattern để xử lý biểu thức này. Mục đích của ứng dụng là phân tích cú pháp và tính toán giá trị của biểu thức toán học này.
+
+
+Giải thích mã:
+IExpression (Biểu thức trừu tượng):
+Định nghĩa một phương thức Interpret() mà tất cả các biểu thức (bao gồm cả TerminalExpression và NonTerminalExpression) phải thực thi. Phương thức này sẽ trả về kết quả tính toán của biểu thức.
+
+Number (Biểu thức đầu cuối):
+Là biểu thức đại diện cho một số đơn giản. Nó có một giá trị cụ thể và phương thức Interpret() trả về giá trị đó.
+
+AddExpression và MultiplyExpression (Biểu thức không phải đầu cuối):
+Là các biểu thức phức tạp hơn. Các lớp này thực hiện các phép toán cộng và nhân tương ứng. Mỗi lớp nhận vào hai đối tượng IExpression (có thể là TerminalExpression hoặc NonTerminalExpression) và thực hiện phép toán bằng cách gọi phương thức Interpret() của chúng.
+
+Client:
+Trong mã khách hàng, chúng ta xây dựng biểu thức toán học 1 + (2 * 3). Biểu thức này được xây dựng bằng cách kết hợp các đối tượng Number, AddExpression, và MultiplyExpression. Sau đó, chúng ta gọi phương thức Interpret() để tính toán kết quả.

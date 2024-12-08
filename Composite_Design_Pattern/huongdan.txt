@@ -1,0 +1,17 @@
+﻿Composite Design Pattern là gì?
+Composite Design Pattern là một Structural Design Pattern cho phép bạn tổ chức các đối tượng trong cấu trúc cây, trong đó các đối tượng có thể là các đối tượng lá (leaf) hoặc các đối tượng tổ hợp (composite). Mục tiêu của Composite Pattern là để bạn có thể làm việc với các đối tượng lá và tổ hợp một cách đồng nhất mà không cần phải phân biệt chúng.
+
+Lá (Leaf): Là các đối tượng không có con.
+Tổ hợp (Composite): Là các đối tượng có thể chứa các đối tượng khác, bao gồm cả các đối tượng lá và tổ hợp.
+
+Khi nào sử dụng Composite Pattern?
+1.Khi bạn muốn tạo ra một cấu trúc cây để quản lý các đối tượng có thể là lá hoặc tổ hợp.
+2.Khi bạn cần xử lý các đối tượng một cách đồng nhất mà không quan tâm đến việc chúng là lá hay tổ hợp.
+3.Khi bạn có một số lượng lớn các đối tượng cần tổ chức thành các cấu trúc phân cấp.
+
+Cấu trúc Composite Pattern
+Component: Là lớp cơ sở (interface hoặc abstract class) cho cả các đối tượng lá và tổ hợp.
+Leaf: Là lớp đại diện cho đối tượng lá, không chứa con.
+Composite: Là lớp đại diện cho đối tượng tổ hợp, có thể chứa các đối tượng con (leaf hoặc composite).
+Client: Là đối tượng sử dụng các đối tượng trong cấu trúc cây mà không cần quan tâm đến việc đó là đối tượng lá hay tổ hợp.
+

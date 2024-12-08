@@ -1,0 +1,21 @@
+﻿Abstract Factory Design Pattern là gì?
+Abstract Factory là một Creational Design Pattern cung cấp một giao diện để tạo ra các họ đối tượng liên quan hoặc phụ thuộc mà không chỉ định lớp cụ thể của chúng. Nó thường được sử dụng khi bạn cần tạo nhiều đối tượng liên quan nhưng muốn đảm bảo rằng chúng tương thích với nhau.
+
+Ý tưởng chính:
+Thay vì tạo các đối tượng cụ thể trực tiếp, bạn sử dụng một "Factory" để tạo ra các đối tượng thuộc một nhóm (họ) mà không cần chỉ định kiểu cụ thể.
+
+Cấu trúc Abstract Factory
+AbstractFactory (Nhà máy trừu tượng):
+Cung cấp giao diện để tạo ra các nhóm đối tượng liên quan.
+
+ConcreteFactory (Nhà máy cụ thể):
+Cài đặt giao diện của AbstractFactory để tạo ra các sản phẩm cụ thể.
+
+AbstractProduct (Sản phẩm trừu tượng):
+Xác định giao diện cho từng loại sản phẩm mà nhà máy tạo ra.
+
+ConcreteProduct (Sản phẩm cụ thể):
+Triển khai giao diện của AbstractProduct.
+
+Client (Khách hàng):
+Sử dụng AbstractFactory để làm việc với các đối tượng mà không cần biết về lớp cụ thể của chúng.

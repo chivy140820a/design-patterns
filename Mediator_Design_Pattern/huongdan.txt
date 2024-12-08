@@ -1,0 +1,35 @@
+﻿Mediator Design Pattern là gì?
+Mediator Design Pattern là một Behavioral Design Pattern giúp giảm sự phụ thuộc trực tiếp (coupling) giữa các đối tượng hoặc thành phần trong hệ thống. Mediator đóng vai trò trung gian điều phối giao tiếp giữa các đối tượng, thay vì để chúng giao tiếp trực tiếp với nhau. Điều này làm cho hệ thống dễ bảo trì và mở rộng hơn.
+
+Cấu trúc Mediator Pattern:
+Mediator (Giao diện trung gian):
+Xác định cách các đối tượng sẽ giao tiếp với nhau.
+
+ConcreteMediator (Triển khai Mediator):
+Là lớp triển khai Mediator, quản lý giao tiếp và điều phối giữa các đối tượng.
+
+Colleague (Đối tượng tham gia):
+Là các thành phần cần giao tiếp thông qua Mediator. Các đối tượng này không giao tiếp trực tiếp với nhau mà thông qua Mediator.
+
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang xây dựng một hệ thống chat nhóm, nơi các thành viên trong nhóm chỉ giao tiếp thông qua một đối tượng trung gian (Mediator). Mediator sẽ chịu trách nhiệm gửi tin nhắn đến tất cả các thành viên trong nhóm.
+
+
+
+
+Giải thích mã:
+Giao diện IChatMediator:
+Định nghĩa các phương thức cơ bản để đăng ký người dùng (RegisterUser) và gửi tin nhắn (SendMessage).
+
+Mediator cụ thể (ChatMediator):
+Lớp này chịu trách nhiệm điều phối tin nhắn giữa các người dùng. Nó lưu trữ danh sách các người dùng và gửi tin nhắn đến tất cả ngoại trừ người gửi.
+
+Lớp cơ sở ChatUser:
+Đóng vai trò làm các đối tượng tham gia giao tiếp. Các lớp con sẽ triển khai hành vi gửi và nhận tin nhắn.
+
+Lớp User:
+Là triển khai cụ thể của ChatUser, xử lý logic gửi và nhận tin nhắn thông qua Mediator.
+
+Ứng dụng:
+Trong Main, các người dùng được tạo và đăng ký vào Mediator. Khi một người dùng gửi tin nhắn, Mediator sẽ đảm bảo rằng tin nhắn được chuyển đến các người dùng khác trong nhóm.

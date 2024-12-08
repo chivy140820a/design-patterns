@@ -1,0 +1,28 @@
+﻿Strategy Design Pattern là gì?
+Strategy Design Pattern là một Behavioral Design Pattern cho phép bạn định nghĩa một họ các thuật toán, đóng gói chúng lại và làm cho chúng có thể thay đổi lẫn nhau. Mẫu thiết kế này giúp bạn chọn lựa thuật toán phù hợp tại thời điểm runtime mà không cần phải thay đổi mã nguồn của đối tượng đang sử dụng thuật toán đó.
+
+Trong Strategy Pattern, một lớp sẽ có một tham chiếu đến một đối tượng của một lớp chiến lược (Strategy), và thông qua đối tượng này, nó có thể thay đổi thuật toán hoặc hành vi mà nó sử dụng mà không cần thay đổi chính lớp đó. Điều này giúp giảm sự phụ thuộc giữa các lớp và làm cho việc mở rộng hoặc thay đổi thuật toán trở nên dễ dàng.
+
+
+Cấu trúc của Strategy Pattern
+1.Context (Ngữ cảnh): Là lớp sử dụng chiến lược. Lớp này có thể thay đổi chiến lược trong suốt quá trình.
+2.Strategy (Chiến lược): Là interface hoặc lớp trừu tượng định nghĩa hành vi mà các chiến lược cụ thể sẽ thực thi.
+3.ConcreteStrategy (Chiến lược cụ thể): Các lớp triển khai chiến lược thực tế, mỗi lớp có thể thực hiện thuật toán khác nhau.
+
+Khi nào sử dụng Strategy Pattern?
+- Khi bạn có nhiều cách tiếp cận khác nhau để giải quyết một vấn đề và bạn muốn thay đổi giữa các cách tiếp cận đó.
+- Khi thuật toán của bạn có thể thay đổi mà không cần thay đổi mã nguồn của lớp sử dụng thuật toán đó.
+- Khi bạn muốn tránh sử dụng cấu trúc điều kiện (như if-else hay switch-case) trong mã nguồn để thay đổi hành vi của đối tượng.
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang phát triển một hệ thống thanh toán cho ứng dụng thương mại điện tử. Bạn có thể hỗ trợ nhiều phương thức thanh toán như PayPal, CreditCard, và Bitcoin. Với Strategy Pattern, bạn có thể thay đổi phương thức thanh toán mà không cần phải thay đổi mã nguồn của lớp xử lý thanh toán.
+
+
+Giải thích mã:
+IPaymentStrategy (Chiến lược thanh toán): Đây là interface định nghĩa một phương thức Pay(decimal amount) mà tất cả các chiến lược thanh toán cụ thể sẽ thực thi. Mỗi chiến lược cụ thể có thể triển khai phương thức này để xử lý việc thanh toán theo cách riêng.
+
+Concrete Strategies (Các chiến lược cụ thể): Các lớp PayPalPayment, CreditCardPayment, và BitcoinPayment triển khai IPaymentStrategy, mỗi lớp này cung cấp một cách thanh toán khác nhau.
+
+PaymentContext (Ngữ cảnh): Đây là lớp chứa tham chiếu đến IPaymentStrategy và thực thi hành vi của chiến lược đã chọn thông qua phương thức ExecutePayment. Lớp này không cần phải biết chi tiết cách thức thanh toán (PayPal, Credit Card, Bitcoin), mà chỉ sử dụng phương thức Pay từ chiến lược.
+
+Client Code (Mã khách hàng): Khách hàng chọn chiến lược thanh toán (ví dụ: PayPal, Credit Card, Bitcoin) và sau đó thực thi thanh toán qua lớp PaymentContext.

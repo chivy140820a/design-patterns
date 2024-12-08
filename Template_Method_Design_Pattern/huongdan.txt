@@ -1,0 +1,24 @@
+﻿Template Method Design Pattern là gì?
+Template Method Design Pattern là một Behavioral Design Pattern định nghĩa cấu trúc chung của một thuật toán trong một phương thức (gọi là "template method"), nhưng để một số bước trong thuật toán có thể thay đổi thông qua các phương thức con. Pattern này cho phép bạn cung cấp một phương thức cơ sở có sẵn, nhưng cho phép các lớp con xác định các bước cụ thể trong thuật toán mà không thay đổi cấu trúc tổng thể.
+
+Cấu trúc của Template Method Pattern:
+AbstractClass (Lớp trừu tượng):
+Đây là lớp chứa phương thức Template Method, mà trong đó có một chuỗi các bước hoặc phương thức. Phương thức này thường bao gồm các bước thực hiện chung, với một số bước được để trống (được định nghĩa như các phương thức abstract hoặc hook methods) cho các lớp con triển khai.
+
+ConcreteClass (Lớp cụ thể):
+Là lớp kế thừa và cung cấp các cài đặt cụ thể cho các phương thức trừu tượng hoặc hook methods được định nghĩa trong lớp trừu tượng.
+
+Ví dụ thực tế trong ứng dụng .NET Core
+Giả sử bạn đang xây dựng một hệ thống quản lý thanh toán trong một ứng dụng thương mại điện tử. Có một quá trình chung cho thanh toán, nhưng các bước trong quá trình thanh toán có thể khác nhau tùy vào phương thức thanh toán, chẳng hạn như thanh toán qua thẻ tín dụng, PayPal, hoặc chuyển khoản ngân hàng.
+
+Chúng ta sẽ sử dụng Template Method Pattern để định nghĩa cấu trúc chung của quá trình thanh toán, và các phương thức thanh toán cụ thể sẽ cài đặt các bước cụ thể trong quá trình đó.
+
+Giải thích mã:
+PaymentProcessor (Abstract Class):
+Lớp này chứa phương thức ProcessPayment(), là phương thức template chung, định nghĩa quy trình thanh toán. Phương thức này gọi các bước như AuthorizePayment(), ProcessTransaction(), và SendReceipt(). Các bước AuthorizePayment() và ProcessTransaction() là các phương thức trừu tượng, vì chúng cần được các lớp con thực thi. SendReceipt() là một phương thức hook, có thể được các lớp con thay đổi nếu cần.
+
+CreditCardPaymentProcessor và PayPalPaymentProcessor (Concrete Classes):
+Các lớp này triển khai các bước thanh toán cụ thể cho từng phương thức thanh toán. Mỗi lớp cung cấp cách thức xử lý thanh toán riêng (ví dụ, cho thẻ tín dụng hoặc PayPal). Lớp PayPalPaymentProcessor còn ghi đè phương thức SendReceipt() để thay đổi cách gửi biên nhận.
+
+Program (Client):
+Trong mã này, chúng ta tạo các đối tượng PaymentProcessor cụ thể như CreditCardPaymentProcessor và PayPalPaymentProcessor và gọi ProcessPayment() để thực thi quá trình thanh toán. Cả hai đối tượng thực thi quá trình thanh toán, nhưng với các cách xử lý khác nhau cho từng phương thức thanh toán.

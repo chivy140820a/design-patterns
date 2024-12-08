@@ -1,0 +1,9 @@
+﻿Prototype Design Pattern là gì?
+Prototype Design Pattern là một Creational Design Pattern cho phép bạn tạo ra các đối tượng mới bằng cách sao chép (clone) một đối tượng hiện có thay vì tạo đối tượng mới từ đầu. Điều này hữu ích khi việc khởi tạo một đối tượng từ đầu tốn kém về tài nguyên hoặc thời gian.
+
+Thay vì khởi tạo đối tượng mới mỗi lần, bạn có thể sao chép một đối tượng mẫu (prototype) và thay đổi các thuộc tính của nó để tạo ra các đối tượng mới với trạng thái khác nhau.
+
+Khi nào sử dụng Prototype Pattern?
+1.Khi bạn muốn sao chép đối tượng mà không cần biết cấu trúc bên trong của đối tượng.
+2.Khi việc tạo đối tượng tốn kém về tài nguyên hoặc thời gian, và bạn muốn sao chép các đối tượng đã tồn tại để tiết kiệm tài nguyên.
+3.Khi bạn muốn tạo ra các đối tượng giống nhau với một số thay đổi nhỏ từ đối tượng gốc.
